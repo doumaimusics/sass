@@ -1,0 +1,119 @@
+*{padding:0;margin:0;list-style: none;}
+a{text-decoration: none;color: #333;}
+body{background:#fff;}
+img{border:none;}
+.clearfix:after{
+    content:".";
+    height: 0;
+    visibility: hidden;
+    clear: both;
+    display: block;
+}
+.clearfix{zoom: 1;}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.dabox{width: 100%;height: auto;
+}
+.center-box{
+    width: 1200px;
+    height: 300px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    background: honeydew;
+}
+.cc{
+    margin-top: 30px;
+}
+.dabox .center{
+    width: 1200px;
+    margin: 30px auto;
+  .list-box{
+      width: 320px;
+      background:#F3F5F9;
+      background: lightskyblue;
+      .jump{
+          li{
+              border-bottom: 1px solid #ddd;
+              line-height: 46px;
+              margin-bottom: 10px;
+              cursor:pointer;
+              a{
+                  display: block;
+               i{
+                   width:34px;
+                   height:34px;
+                   float: left;
+                   display:block;
+                   margin-top:5px;
+                   margin-left: 10px;
+               }
+               .text.active{
+                   color: #64B800;
+               }
+               .text{
+                   float:left;
+                   font-size: 14px;
+                   color: #333333;
+                   font-weight:bold;
+                   margin-left: 30px;
+               }
+              }
+          }
+          //灰色图标
+    $colors: (url("../img/XX-309-629.png")0px 0px,url("../img/XX-309-629.png") 0 -62px,url("../img/XX-309-629.png") -1px -124px,url("../img/XX-309-629.png") 0 -186px,url("../img/XX-309-629.png") 0 -249px,url("../img/XX-309-629.png") 0 -310px,url("../img/XX-309-629.png") 0 -371px,url("../img/XX-309-629.png") 0 -435px,url("../img/XX-309-629.png") 0 -496px,url("../img/XX-309-629.png") 0 -557px);
+    @for $i from 1 through 10{
+             li:nth-child(#{$i}) i {
+                 background:nth($colors,$i);
+             }
+         }
+         //彩图片
+    $circle: ('yi':url("../img/XX-309-629.png")-62px 0px,'er':url("../img/XX-309-629.png") -62px -62px,'san':url("../img/XX-309-629.png") -62px -124px,'si':url("../img/XX-309-629.png") -62px -186px,'wu':url("../img/XX-309-629.png") -62px -249px,'liu':url("../img/XX-309-629.png") -62px -310px,'qi':url("../img/XX-309-629.png") -62px -371px,'ba':url("../img/XX-309-629.png") -62px -435px,'jiu':url("../img/XX-309-629.png") -62px -496px,'shi':url("../img/XX-309-629.png") -62px -557px);
+        @each $j in map-keys($circle){
+            i.active.#{$j}{
+                background:map-get($circle,$j)
+            }
+        }
+      }
+  }
+  
+  .data-main{
+      width: 880px;
+      background: lightgoldenrodyellow;
+      .main-item{
+          padding: 60px 30px;
+          margin-bottom: 40px;
+          background: #fff;
+          text-align: center;
+          span{
+              line-height: 340px;
+               font-size: 24px;
+             font-weight: bold;
+             color:#333;
+          }
+      }
+  }
+}
+
+
+.footer{
+    width: 100%;
+    height:auto;
+    background: #333333;
+    margin-top:50px;
+    .text{
+        width: 1200px;
+        margin: auto;
+        line-height: 200px;
+        text-align: center;
+        span{
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    }
+}

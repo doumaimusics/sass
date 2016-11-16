@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+body {
+  background: #fff; }
+
+img {
+  border: none; }
+
+.clearfix:after {
+  content: ".";
+  height: 0;
+  visibility: hidden;
+  clear: both;
+  display: block; }
+
+.clearfix {
+  zoom: 1; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.dabox {
+  width: 100%;
+  height: auto; }
+
+.center-box {
+  width: 1200px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background: honeydew; }
+
+.cc {
+  margin-top: 30px; }
+
+.dabox .center {
+  width: 1200px;
+  margin: 30px auto; }
+  .dabox .center .list-box {
+    width: 320px;
+    background: #F3F5F9;
+    background: lightskyblue; }
+    .dabox .center .list-box .jump li {
+      border-bottom: 1px solid #ddd;
+      line-height: 46px;
+      margin-bottom: 10px;
+      cursor: pointer; }
+      .dabox .center .list-box .jump li a {
+        display: block; }
+        .dabox .center .list-box .jump li a i {
+          width: 34px;
+          height: 34px;
+          float: left;
+          display: block;
+          margin-top: 5px;
+          margin-left: 10px; }
+        .dabox .center .list-box .jump li a .text.active {
+          color: #64B800; }
+        .dabox .center .list-box .jump li a .text {
+          float: left;
+          font-size: 14px;
+          color: #333333;
+          font-weight: bold;
+          margin-left: 30px; }
+    .dabox .center .list-box .jump li:nth-child(1) i {
+      background: url("../img/XX-309-629.png") 0px 0px; }
+    .dabox .center .list-box .jump li:nth-child(2) i {
+      background: url("../img/XX-309-629.png") 0 -62px; }
+    .dabox .center .list-box .jump li:nth-child(3) i {
+      background: url("../img/XX-309-629.png") -1px -124px; }
+    .dabox .center .list-box .jump li:nth-child(4) i {
+      background: url("../img/XX-309-629.png") 0 -186px; }
+    .dabox .center .list-box .jump li:nth-child(5) i {
+      background: url("../img/XX-309-629.png") 0 -249px; }
+    .dabox .center .list-box .jump li:nth-child(6) i {
+      background: url("../img/XX-309-629.png") 0 -310px; }
+    .dabox .center .list-box .jump li:nth-child(7) i {
+      background: url("../img/XX-309-629.png") 0 -371px; }
+    .dabox .center .list-box .jump li:nth-child(8) i {
+      background: url("../img/XX-309-629.png") 0 -435px; }
+    .dabox .center .list-box .jump li:nth-child(9) i {
+      background: url("../img/XX-309-629.png") 0 -496px; }
+    .dabox .center .list-box .jump li:nth-child(10) i {
+      background: url("../img/XX-309-629.png") 0 -557px; }
+    .dabox .center .list-box .jump i.active.yi {
+      background: url("../img/XX-309-629.png")-62px 0px; }
+    .dabox .center .list-box .jump i.active.er {
+      background: url("../img/XX-309-629.png") -62px -62px; }
+    .dabox .center .list-box .jump i.active.san {
+      background: url("../img/XX-309-629.png") -62px -124px; }
+    .dabox .center .list-box .jump i.active.si {
+      background: url("../img/XX-309-629.png") -62px -186px; }
+    .dabox .center .list-box .jump i.active.wu {
+      background: url("../img/XX-309-629.png") -62px -249px; }
+    .dabox .center .list-box .jump i.active.liu {
+      background: url("../img/XX-309-629.png") -62px -310px; }
+    .dabox .center .list-box .jump i.active.qi {
+      background: url("../img/XX-309-629.png") -62px -371px; }
+    .dabox .center .list-box .jump i.active.ba {
+      background: url("../img/XX-309-629.png") -62px -435px; }
+    .dabox .center .list-box .jump i.active.jiu {
+      background: url("../img/XX-309-629.png") -62px -496px; }
+    .dabox .center .list-box .jump i.active.shi {
+      background: url("../img/XX-309-629.png") -62px -557px; }
+  .dabox .center .data-main {
+    width: 880px;
+    background: lightgoldenrodyellow; }
+    .dabox .center .data-main .main-item {
+      padding: 60px 30px;
+      margin-bottom: 40px;
+      background: #fff;
+      text-align: center; }
+      .dabox .center .data-main .main-item span {
+        line-height: 340px;
+        font-size: 24px;
+        font-weight: bold;
+        color: #333; }
+
+.footer {
+  width: 100%;
+  height: auto;
+  background: #333333;
+  margin-top: 50px; }
+  .footer .text {
+    width: 1200px;
+    margin: auto;
+    line-height: 200px;
+    text-align: center; }
+    .footer .text span {
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold; }
